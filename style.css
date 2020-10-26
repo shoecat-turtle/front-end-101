@@ -1,0 +1,62 @@
+.heading {
+  display: block;
+  align-content: center;
+}
+img {
+  display: block;
+  margin: auto;
+  height: 100vh;
+  width: 100vh;
+}
+.merk {
+  color: black;
+  text-align: center;
+}
+
+.parag {
+  height: 30%;
+  width: 30%;
+  text-align: justify;
+  margin-left: 20%;
+  font-family: "Gloria Hallelujah", cursive;
+}
+.pic1 {
+  margin-left: 20%;
+}
+.parag1 {
+  height: 30%;
+  width: 30%;
+  text-align: justify;
+  margin-left: 50%;
+  font-family: "Gloria Hallelujah", cursive;
+}
+.parag2 {
+  height: 30%;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  font-family: "Gloria Hallelujah", cursive;
+}
+.pic2 {
+  margin-right: 30%;
+}
+.pic3 {
+  display: flex;
+}
+button {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  font-size: medium;
+  border-radius: 50px;
+  font-family: "Gloria Hallelujah", cursive;
+}
+button:hover {
+  cursor: pointer;
+  transform: scaleX(1.2) scaleY(1.2);
+  transition: 1s;
+}
